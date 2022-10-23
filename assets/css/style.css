@@ -12,9 +12,6 @@
     height: 22px;
     margin-top: 2px;    
 }
-img, svg {
-    vertical-align: middle;
-}
 .bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
     font-size: 22px;
     color: white;
@@ -22,6 +19,62 @@ img, svg {
 .zammen-logo{
     width: 146px;
     height: 33px;
-    margin-left: 20px;
+    margin-left: 17px;
+}
+.footer{
+    background-color: #1f1f1f;
+}
+.footer-inner{
+    display: flex;
+}
+.footer-inner-item{
+    width: 25%;
+}
+.footer-inner-item ul{
+    margin: 0;
+    padding: 0;
+}
+.footer-inner-item li{
+    list-style-type: none;
+    margin: 8px 0;
+}
+.footer-inner-item ul li a{
+    text-decoration: none;
+    color: #bdbdbd;
+}
+.footer-inner-item ul li a:hover{
+    text-decoration: underline;
+}
+.lower-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.lower-footer ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-bottom: 8px;
+    font-size: large;
+}
+.lower-footer li{
+    list-style-type: none;
+    margin: 11px;
+    margin-left: 0%;
+
+}
+.lower-footer ul li a{
+    text-decoration: none;
+    color: #707070;
+}
+.lower-footer ul li a:hover{
+    text-decoration: underline;
+}
+.lower-footer img{
+    width: 18px;
+    padding-bottom: 4px;
+    margin-right: 6px;
+}
+.end-2{
+    background-color: #f0f0f0;
 }
 
