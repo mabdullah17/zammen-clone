@@ -1,0 +1,29 @@
+.navbar{
+    padding-top: 0; 
+    padding-bottom: 0;
+}
+#bg-nav{
+    background-color: #33a137;
+}
+.form-control {
+    width: 28%;
+    padding: .375rem .75rem;
+    font-size: 0.8rem;
+    height: 22px;
+    margin-top: 2px;    
+}
+img, svg {
+    vertical-align: middle;
+}
+.bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
+    font-size: 22px;
+    color: white;
+}
+.zammen-logo{
+    width: 146px;
+    height: 33px;
+    margin-left: 20px;
+}
+.i{
+    height: 100%;
+}
